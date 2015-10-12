@@ -230,7 +230,7 @@ public class FlipAnimation {
             return this;
         }
 
-        void run() {
+        public void run() {
             if (outView == null || inView == null) {
                 Log.d(TAG, "Cannot animate without an out view and an in view.  Aborting.");
                 if (animationListener != null) {
