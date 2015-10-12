@@ -200,32 +200,32 @@ public class FlipAnimation {
 
         }
 
-        Builder withOutView(@NonNull View outView) {
+        public Builder withOutView(@NonNull View outView) {
             this.outView = outView;
             return this;
         }
 
-        Builder withInView(@NonNull View inView) {
+        public Builder withInView(@NonNull View inView) {
             this.inView = inView;
             return this;
         }
 
-        Builder withDurationMillis(long durationMillis) {
+        public Builder withDurationMillis(long durationMillis) {
             this.durationMillis = durationMillis;
             return this;
         }
 
-        Builder withInterpolator(@NonNull Interpolator interpolator) {
+        public Builder withInterpolator(@NonNull Interpolator interpolator) {
             this.interpolator = interpolator;
             return this;
         }
 
-        Builder withDirection(@NonNull Direction direction) {
+        public Builder withDirection(@NonNull Direction direction) {
             this.direction = direction;
             return this;
         }
 
-        Builder withAnimationListener(@NonNull AnimationListener animationListener) {
+        public Builder withAnimationListener(@NonNull AnimationListener animationListener) {
             this.animationListener = animationListener;
             return this;
         }
